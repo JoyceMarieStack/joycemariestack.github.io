@@ -4,18 +4,74 @@ title: Welcome
 ---
 
 <section class="hero wrap">
-  <span class="badge">[Your tagline — e.g. Docs-as-Code &amp; AI-Assisted Documentation]</span>
-  <h1>[Your Name]</h1>
-  <p class="role">[Your role/title]</p>
-  <p class="bio">[One to two sentences on your focus — e.g. building docs-as-code workflows, AI-assisted documentation, and developer experience improvements.]</p>
+  <h1>Joyce Stack</h1>
+  <p class="role">Docs as AI Infrastructure</p>
+  <p class="bio">Researching what AI-native repositories actually need to look like.</p>
   <div class="cta-row">
     <a class="btn btn-primary" href="#writing">Read my writing</a>
-    <a class="btn btn-secondary" href="#" title="Add a link — resume, LinkedIn, etc.">[Add a link]</a>
+    <a class="btn btn-secondary" href="#projects">View projects</a>
   </div>
+</section>
+
+<section class="section wrap">
+  <h2 class="section-title">What I do</h2>
+  <div class="prose">
+    <p>Twenty years in software. Developer, architect, API advocate. And now, apparently, the person who asks awkward questions of corpora.</p>
+    <p>That last part wasn't planned. It started with a docs problem nobody assigned to me, which led to a question I hadn't taken seriously before: what does documentation actually need to look like when AI agents are reading it, not humans?</p>
+    <p>Documentation debt doesn't disappear when you adopt AI. It compounds.</p>
+    <p>What I keep finding: the problems that look like documentation problems aren't. They're about how engineering knowledge is structured, named, and organized, and whether humans and AI systems can actually use it. That's made me a better reader of engineering knowledge — which turns out to be the harder skill.</p>
+    <p>Making the invisible visible — dashboards, gap analysis, cost checkers — that's the actual work.</p>
+    <p>Short answer so far, on the research itself: structure barely matters. Terminology does. If a document fits in an agent's context window, it gets read in full — the headings and hierarchy you spent hours perfecting are close to irrelevant. What breaks agents is a term used three different ways across three different files. That's not a formatting problem. It's an instrumentation gap — the kind of thing that looks fine until you check whether it's actually verified everywhere it needs to be.</p>
+    <p>I'm not sure that's documentation anymore. It's agent reliability work. Knowledge architecture.</p>
+  </div>
+</section>
+
+<section class="section wrap" id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Agent Ready Docs CLI</h3>
+      <p>A command-line tool that checks whether a repository is actually usable by an AI coding agent — not "does it have a README," but "can an agent extract what it needs from what's here."</p>
+      <a class="read-more" href="#" title="Add the link once this project is published">[→ read more]</a>
+    </div>
+    <div class="card">
+      <h3>ADR Ingestion Pipeline</h3>
+      <p>Architecture Decision Records are usually a graveyard: written once, never queried again. This pipeline cleans, clusters, and makes them queryable — turning years of buried decisions into something you can actually search.</p>
+      <a class="read-more" href="#" title="Add the link once this project is published">[→ read more]</a>
+    </div>
+    <div class="card">
+      <h3>Lexi</h3>
+      <p>A gap analysis tool comparing how terms are <em>defined</em> in architecture standards against how they're actually <em>used</em> in spec documents. The gaps are the interesting part.</p>
+      <a class="read-more" href="#" title="Add the link once this project is published">[→ read more]</a>
+    </div>
+    <div class="card">
+      <h3>Docs Context &amp; Cost Checker</h3>
+      <p>Measures how much of an AI coding tool's context window a repository's documentation actually consumes — and whether that spend is buying anything.</p>
+      <a class="read-more" href="#" title="Add the link once this project is published">[→ read more]</a>
+    </div>
+    <div class="card">
+      <h3>Docs-as-Code Standard</h3>
+      <p>Started as a way of working. Became an official architectural standard. Nobody planned that; it just turned out to be the right answer often enough that it stuck.</p>
+      <a class="read-more" href="#" title="Add the link once this project is published">[→ read more]</a>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap">
+  <h2 class="section-title">Research</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Instrumentation Gaps in Spec-Driven Development: Evidence from Three Cases <span class="tag-inprogress">in progress</span></h3>
+      <p>A legal requirement can be fully met at one layer of a system and silently unmet at another — and every document describing the system can still say it's fine. This is a study of why that happens and how to catch it before an audit does.</p>
+      <a class="read-more" href="#" title="Add the link once this is published">[→ read more]</a>
+    </div>
+  </div>
+  <p class="section-intro" style="margin-top: 20px;">This is empirical work, not a finished framework. I'm gathering cases, not selling conclusions.</p>
 </section>
 
 <section class="section wrap" id="writing">
   <h2 class="section-title">Writing</h2>
+  <p class="section-intro">Recent posts on documentation, architecture, and what "AI-native" actually requires:</p>
   <div class="card-grid">
     <a class="card" href="docs/for-devs-who-want-fewer-interruptions">
       <h3>For Developers Who Want Fewer Interruptions</h3>
@@ -29,50 +85,10 @@ title: Welcome
 </section>
 
 <section class="section wrap">
-  <h2 class="section-title">What I Built — Experiments &amp; Prototypes in Docs-as-Code</h2>
-  <div class="card-grid">
-    <div class="card">
-      <h3>1. Quick Win: Pre-commit Documentation Checks</h3>
-      <p><strong>Goal:</strong> Automate enforcement of documentation standards before code merges.<br>
-      <strong>Experiment:</strong> Built a simple Python pre-commit hook in 3 days.<br>
-      <strong>Outcome:</strong> Adopted by a team; helps catch documentation issues early.<br>
-      <strong>Impact:</strong> <em>Initial adoption; impact to be measured over time.</em></p>
-    </div>
-    <div class="card">
-      <h3>2. Starting Small: AI Coach for Repo Setup</h3>
-      <p><strong>Goal:</strong> Reduce onboarding friction by automating repo documentation scaffolding.<br>
-      <strong>Experiment:</strong> Created an AI-powered bot to bootstrap new repos with templates.<br>
-      <strong>Outcome:</strong> Used successfully by a team to standardize initial docs.<br>
-      <strong>Impact:</strong> <em>Early results; next step is measuring team adoption.</em></p>
-    </div>
-    <div class="card">
-      <h3>3. Testing Standards: Vale Rulesets for Content Quality</h3>
-      <p><strong>Goal:</strong> Automate content linting to improve docs quality.<br>
-      <strong>Experiment:</strong> Developed Vale rulesets based on writing guidelines.<br>
-      <strong>Outcome:</strong> Pilot in CI/CD pipelines.<br>
-      <strong>Impact:</strong> <em>Initial testing; scaling and impact assessment ongoing.</em></p>
-    </div>
-    <div class="card">
-      <h3>4. Organizing Knowledge: Backstage TechDocs Projects</h3>
-      <p><strong>Goal:</strong> Improve discoverability of scattered documentation.<br>
-      <strong>Experiment:</strong> Organized existing docs into Backstage TechDocs.<br>
-      <strong>Outcome:</strong> Created a centralized view of documentation.<br>
-      <strong>Impact:</strong> <em>Foundation laid; future measurement of usage.</em></p>
-    </div>
-    <div class="card">
-      <h3>5. Exploring Documentation Frameworks</h3>
-      <p><strong>Goal:</strong> Define a reusable structure for documentation.<br>
-      <strong>Experiment:</strong> Piloted Diátaxis framework and The Good Docs Project templates across projects.<br>
-      <strong>Outcome:</strong> Published standards on Backstage.<br>
-      <strong>Impact:</strong> <em>Early adoption; measuring cultural change next.</em></p>
-    </div>
-    <div class="card">
-      <h3>6. Building a Learning Loop: Sharing and Community</h3>
-      <p><strong>Goal:</strong> Foster a culture of documentation excellence.<br>
-      <strong>Experiment:</strong> Launched a documentation community of practice and published blogs.<br>
-      <strong>Outcome:</strong> Engaged a small group, shared best practices.<br>
-      <strong>Impact:</strong> <em>Initial engagement; scaling efforts planned.</em></p>
-    </div>
-  </div>
-  <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 20px;"><em>Note:</em> These items are early experiments and prototypes aimed at building a sustainable docs pipeline. The impact is being observed and measured as these ideas evolve.</p>
+  <h2 class="section-title">Elsewhere</h2>
+  <p class="section-intro">
+    <a href="#" title="Add your LinkedIn URL">[LinkedIn]</a> ·
+    <a href="#" title="Add your GitHub URL">[GitHub]</a> ·
+    <a href="#" title="Add your contact info">[Contact]</a>
+  </p>
 </section>

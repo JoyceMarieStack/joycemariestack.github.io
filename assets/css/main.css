@@ -183,6 +183,45 @@ a {
   margin: 0;
 }
 
+/* Prose (long-form sections like "What I do") */
+.prose {
+  max-width: 68ch;
+}
+
+.prose p {
+  margin: 0 0 1.1em;
+  color: var(--text-secondary);
+}
+
+.prose p:last-child { margin-bottom: 0; }
+
+/* Project / research card extras */
+.card .tag-inprogress {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-purple);
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.section-intro {
+  color: var(--text-secondary);
+  max-width: 68ch;
+  margin: -8px 0 20px;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
