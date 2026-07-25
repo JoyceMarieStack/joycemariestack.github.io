@@ -58,18 +58,6 @@ title: Welcome
   </div>
 </section>
 
-<section class="section wrap">
-  <h2 class="section-title">Research</h2>
-  <div class="card-grid">
-    <div class="card">
-      <h3>Instrumentation Gaps in Spec-Driven Development: Evidence from Three Cases <span class="tag-inprogress">in progress</span></h3>
-      <p>A legal requirement can be fully met at one layer of a system and silently unmet at another — and every document describing the system can still say it's fine. This is a study of why that happens and how to catch it before an audit does.</p>
-      <a class="read-more" href="#" title="Add the link once this is published">[→ read more]</a>
-    </div>
-  </div>
-  <p class="section-intro" style="margin-top: 20px;">This is empirical work, not a finished framework. I'm gathering cases, not selling conclusions.</p>
-</section>
-
 <section class="section wrap" id="writing">
   <h2 class="section-title">Writing</h2>
   <p class="section-intro">Recent posts on documentation, architecture, and what "AI-native" actually requires:</p>
