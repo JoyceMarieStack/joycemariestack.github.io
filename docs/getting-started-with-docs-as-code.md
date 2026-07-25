@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Getting Started with Docs as Code
 ---
 

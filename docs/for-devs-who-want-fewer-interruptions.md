@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: For Devs Who Want Fewer Interruptions
 ---
 
