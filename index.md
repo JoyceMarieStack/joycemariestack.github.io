@@ -83,6 +83,7 @@ title: Welcome
       <p>A practical starting point for teams that feel stuck moving off Confluence and into Markdown.</p>
     </a>
   </div>
+  <a class="read-more" href="https://usecommune.com/n/joycestack" target="_blank" rel="noopener noreferrer" style="margin-top: 20px;">[→ Read more on my blog]</a>
 </section>
 
 <section class="section wrap">
