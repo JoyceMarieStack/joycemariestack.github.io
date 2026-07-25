@@ -1,3 +1,8 @@
+---
+layout: default
+title: Getting Started with Docs as Code
+---
+
 # For Teams Feeling Stuck on Docs as Code and Looking for a Practical Starting Point
 
 ## Introduction

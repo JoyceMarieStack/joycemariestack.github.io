@@ -1,3 +1,8 @@
+---
+layout: default
+title: For Devs Who Want Fewer Interruptions
+---
+
 # For Developers Who Want Fewer Interruptions — Write Docs That Deflect Slack Questions
 
 It’s every developer’s favorite topic: documentation.
