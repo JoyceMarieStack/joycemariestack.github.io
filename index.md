@@ -60,18 +60,8 @@ title: Welcome
 
 <section class="section wrap" id="writing">
   <h2 class="section-title">Writing</h2>
-  <p class="section-intro">Recent posts on documentation, architecture, and what "AI-native" actually requires:</p>
-  <div class="card-grid">
-    <a class="card" href="docs/for-devs-who-want-fewer-interruptions">
-      <h3>For Developers Who Want Fewer Interruptions</h3>
-      <p>Write docs that deflect Slack questions, and beat the "Docs Feedback Loop of Doom."</p>
-    </a>
-    <a class="card" href="docs/getting-started-with-docs-as-code">
-      <h3>Getting Started with Docs as Code</h3>
-      <p>A practical starting point for teams that feel stuck moving off Confluence and into Markdown.</p>
-    </a>
-  </div>
-  <a class="read-more" href="https://usecommune.com/n/joycestack" target="_blank" rel="noopener noreferrer" style="margin-top: 20px;">[→ Read more on my blog]</a>
+  <p class="section-intro">I write about documentation, architecture, and what "AI-native" actually requires, over on Commune.</p>
+  <a class="btn btn-primary" href="https://usecommune.com/n/joycestack" target="_blank" rel="noopener noreferrer">Read my writing on Commune</a>
 </section>
 
 <section class="section wrap">
