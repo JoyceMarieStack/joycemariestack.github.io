@@ -17,12 +17,13 @@ title: Welcome
   <h2 class="section-title">What I do</h2>
   <div class="prose">
     <p>Twenty years in software. Developer, architect, API advocate. And now, apparently, the person who asks awkward questions of corpora.</p>
-    <p>That last part wasn't planned. It started with a docs problem nobody assigned to me, which led to a question I hadn't taken seriously before: what does documentation actually need to look like when AI agents are reading it, not humans?</p>
+    <p>That last part wasn't planned.</p>
+    <p>It started with picking up a docs problem nobody assigned to me. Which led to a question I hadn't taken seriously before: what does documentation actually need to look like when AI agents are reading it, not humans?</p>
     <p>Documentation debt doesn't disappear when you adopt AI. It compounds.</p>
+    <p>Making the invisible visible is something I love to do. The work is genuinely cross-disciplinary. I code enough to build pipelines, write enough to publish findings, and think architecturally enough to understand how knowledge fits together across a system.</p>
     <p>What I keep finding: the problems that look like documentation problems aren't. They're about how engineering knowledge is structured, named, and organized, and whether humans and AI systems can actually use it. That's made me a better reader of engineering knowledge — which turns out to be the harder skill.</p>
-    <p>Making the invisible visible — dashboards, gap analysis, cost checkers — that's the actual work.</p>
-    <p>Short answer so far, on the research itself: structure barely matters. Terminology does. If a document fits in an agent's context window, it gets read in full — the headings and hierarchy you spent hours perfecting are close to irrelevant. What breaks agents is a term used three different ways across three different files. That's not a formatting problem. It's an instrumentation gap — the kind of thing that looks fine until you check whether it's actually verified everywhere it needs to be.</p>
-    <p>I'm not sure that's documentation anymore. It's agent reliability work. Knowledge architecture.</p>
+    <p>I build experimental tooling to surface what's invisible in engineering knowledge, for teams trying to make their systems work reliably with AI.</p>
+    <p>I write about what I find.</p>
   </div>
 </section>
 
