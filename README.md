@@ -32,7 +32,7 @@ The rest of these are internal tools — not public repos, but the findings are 
 
 ### 🌱 How I work
 
-I build the outcome test before the metric I'll ask people to optimize for. I report both readings when a finding is genuinely ambiguous, rather than forcing a verdict. I'd rather ship a pile of related side projects that taught me something than a polished "body of work" that overclaims.
+I do my best work with autonomy, fast feedback, and room to chase the pattern nobody else has spotted. I'm direct — I'd rather raise the hard question early and have the work judged on its merits than manage around it. I want to keep learning; work that stops teaching me stops being worth doing. More on this on the [How I Work page](https://joycemariestack.github.io/how-i-work/).
 
 ### 📫 Elsewhere
 
