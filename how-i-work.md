@@ -4,16 +4,21 @@ title: How I Work
 description: >
   A few things worth knowing before we work together.
 ---
-I do my best work with autonomy and fast feedback. I want to see impact on a weekly cycle, not a quarterly one. Give me a problem and room to solve it — I move fastest without heavy process around me.
 
-I optimize. My instinct is to find the pattern nobody else has spotted and make the invisible visible — friction, inefficiency, gaps in a system. I'd rather build the framework others build on than manage the people using it.
+I optimize. My instinct is to find the pattern nobody else has spotted and **make the invisible visible**: friction, inefficiency, gaps in a system. I'd rather build the framework others build on than manage the people using it. Building the framework isn't the point, though. **people actually using it is.**
 
-I'm direct. I'd rather raise the hard question early than manage around it. I care more about getting to the right answer than about being the one who's liked for saying it — I've found that serves teams better in the long run, even when it's not the comfortable choice in the moment.
+I chase optimization puzzles: **: how do you make something meaningfully better, not marginally better?.**
 
-Being part of a wider community matters to me. Conferences, writing, sharing what I find — that's where I do my best work and stay most engaged.
+Autonomy and fast feedback get the best out of me. Give me a problem and the room to solve it, and **I move fast**. Heavy process slows me down.
 
-I finish what I start, especially in small, low-friction teams where decisions move in weeks, not months.
+I'm direct. I raise the hard question early instead of managing around it. **Getting to the right answer matters more to me than being liked for saying it.** I want work judged on its merits, **not on relationships or who's easiest to agree with.**
 
-What works best for me: fast decision cycles, technical work judged on its merits, and room to focus on outcomes over process.
+I show up in public - writing and sharing what I find. Writing especially, it's how **I clarify my own thinking**.
+
+Small, low-friction teams get the best of me too: I finish what I start when **decisions move in weeks, not months**.
+
+I want to be **learning constantly**. Work that stops teaching me stops being worth doing.
+
+Fast decision cycles. Room to focus on outcomes over process. That's the environment I want.
 
 If this sounds like a fit, [let's talk](mailto:joyce@joycestack.com).
