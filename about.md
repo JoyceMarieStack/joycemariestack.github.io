@@ -1,12 +1,18 @@
 ---
-layout: home
-title: Welcome
-hero_name: Joyce Stack
-tagline: Docs as AI Infrastructure
-bio: Researching what AI-native repositories actually need to look like.
+layout: about
+title: Joyce Stack
+permalink: /
+description: >
+  Docs-as-code, AI-assisted documentation and APIs 
+hide_description: true
+redirect_from:
+  - /about/
 ---
 
-## What I do
+
+## About
+
+<!--author-->
 
 Twenty years in software. Developer, architect, API advocate. And now, apparently, the person who asks awkward questions of corpora.
 
@@ -23,14 +29,6 @@ What I keep finding: the problems that look like documentation problems aren't. 
 I build experimental tooling to surface what's invisible in engineering knowledge, for teams trying to make their systems work reliably with AI.
 
 I write about what I find.
-
-## Projects
-
-{% include project-cards.html %}
-
-## Writing
-
-I write about documentation, architecture, and what "AI-native" actually requires — [read it on Commune](https://usecommune.com/n/joycestack).
 
 ## Elsewhere
 

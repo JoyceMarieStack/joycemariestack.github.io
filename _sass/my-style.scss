@@ -1,0 +1,32 @@
+// mountain-mont-blanc.jpg is low-res (460x995) and portrait-oriented.
+// The theme's default `.sidebar-bg` rule uses `background-size: cover`,
+// which stretches to 100vw width and blows the image up 3-4x on desktop.
+// Scaling by height instead keeps it much closer to native resolution;
+// the dark background shows on the sides rather than a blurry full-bleed image.
+.sidebar-bg {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+// The theme's default About-page avatar is a fixed 7rem circle. Size up
+// (only in the article content, not the sidebar logo avatar elsewhere).
+.content .avatar {
+  width: 12rem;
+  height: 12rem;
+}
+
+.dl-table {
+  a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      text-underline-offset: .8rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      padding-bottom: .45rem;
+    }
+  }
+
+  .btn, .gumroad-button  {
+    margin: 1rem 0;
+  }
+}

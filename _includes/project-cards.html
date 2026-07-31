@@ -1,9 +1,0 @@
-<div class="card-grid">
-{% for project in site.data.projects %}
-  <div class="card">
-    <h3>{{ project.title }}</h3>
-    <p>{{ project.description }}</p>
-    <a class="read-more" href="{{ project.link }}"{% if project.link == "#" %} title="Add the link once this project is published"{% endif %}>[→ read more]</a>
-  </div>
-{% endfor %}
-</div>
