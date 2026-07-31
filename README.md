@@ -4,7 +4,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joycestack/)
 [![Site](https://img.shields.io/badge/Site-joycemariestack.github.io-193747?style=for-the-badge)](https://joycemariestack.github.io/)
-[![Sponsor](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/joycemariestack)
 
 ---
 
