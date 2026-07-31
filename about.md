@@ -29,7 +29,3 @@ What I keep finding: the problems that look like documentation problems aren't. 
 I build experimental tooling to surface what's invisible in engineering knowledge, for teams trying to make their systems work reliably with AI.
 
 I write about what I find.
-
-## Elsewhere
-
-[LinkedIn](# "Add your LinkedIn URL") · [GitHub](# "Add your GitHub URL") · [Contact](# "Add your contact info")

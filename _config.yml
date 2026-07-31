@@ -25,7 +25,7 @@ title:                 Joyce Stack
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Docs-as-code, developer experience, and AI-assisted documentation.
+  Docs-as-code and AI-assisted documentation.
 
 # A shorter description for the sidebar.
 tagline:               Docs as AI Infrastructure
@@ -43,7 +43,7 @@ keywords:              [documentation, APIs,  AI, docs-as-code]
 author:
   # Used by `jekyll-feed`:
   name:                Joyce Stack
-  email:               <mail@domain.tld>
+  email:               joyce@joycestack.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -51,7 +51,7 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Projects
+  - title:             Recent Projects
     url:               /projects/
   - title:             About
     url:               /

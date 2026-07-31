@@ -8,15 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Twenty years in software. Developer, architect, API advocate. And now, apparently,
-    the person who asks awkward questions of corpora.
-
-    That last part wasn't planned. It started with picking up a docs problem nobody
-    assigned to me, which led to a question I hadn't taken seriously before: what does
-    documentation actually need to look like when AI agents are reading it, not humans?
-
-    I build experimental tooling to surface what's invisible in engineering knowledge,
-    for teams trying to make their systems work reliably with AI. I write about what I find.
+    Twenty years in software, now spent asking awkward questions of corpora.
+    I write about what documentation needs to look like when AI agents — not
+    humans — are reading it.
 
   # This photo will be used in the about section.
   picture:
