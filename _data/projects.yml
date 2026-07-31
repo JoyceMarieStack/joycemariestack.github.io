@@ -1,0 +1,35 @@
+- title: Agent Ready Docs CLI
+  description: >
+    A command-line tool that checks whether a repository is actually usable by
+    an AI coding agent — not "does it have a README," but "can an agent
+    extract what it needs from what's here."
+  link: "#"
+
+- title: ADR Ingestion Pipeline
+  description: >
+    Architecture Decision Records are usually a graveyard: written once,
+    never queried again. This pipeline cleans, clusters, and makes them
+    queryable — turning years of buried decisions into something you can
+    actually search.
+  link: "#"
+
+- title: Lexi
+  description: >
+    A gap analysis tool comparing how terms are defined in architecture
+    standards against how they're actually used in spec documents. The gaps
+    are the interesting part.
+  link: "#"
+
+- title: Docs Context & Cost Checker
+  description: >
+    Measures how much of an AI coding tool's context window a repository's
+    documentation actually consumes — and whether that spend is buying
+    anything.
+  link: "#"
+
+- title: Docs-as-Code Standard
+  description: >
+    Started as a way of working. Became an official architectural standard.
+    Nobody planned that; it just turned out to be the right answer often
+    enough that it stuck.
+  link: "#"

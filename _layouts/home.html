@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<section class="hero wrap">
+  <h1>{{ page.hero_name }}</h1>
+  <p class="role">{{ page.tagline }}</p>
+  <p class="bio">{{ page.bio }}</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="#writing">Read my writing</a>
+    <a class="btn btn-secondary" href="#projects">View projects</a>
+  </div>
+</section>
+
+<article class="section wrap prose">
+  {{ content }}
+</article>

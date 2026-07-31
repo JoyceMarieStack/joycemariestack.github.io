@@ -147,12 +147,6 @@ a {
   padding: 40px 0;
 }
 
-.section-title {
-  font-size: 1.6rem;
-  font-weight: 700;
-  margin-bottom: 24px;
-}
-
 /* Writing cards */
 .card-grid {
   display: grid;
@@ -183,10 +177,18 @@ a {
   margin: 0;
 }
 
-/* Prose (long-form sections like "What I do") */
+/* Prose: plain-Markdown homepage content */
 .prose {
   max-width: 68ch;
 }
+
+.prose h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 48px 0 24px;
+}
+
+.prose h2:first-child { margin-top: 0; }
 
 .prose p {
   margin: 0 0 1.1em;
@@ -194,6 +196,15 @@ a {
 }
 
 .prose p:last-child { margin-bottom: 0; }
+
+.prose .card-grid { margin-bottom: 1.1em; }
+
+.prose ul, .prose ol {
+  color: var(--text-secondary);
+  padding-left: 1.3em;
+}
+
+.prose li { margin-bottom: 0.5em; }
 
 /* Project / research card extras */
 .card .tag-inprogress {
@@ -214,12 +225,6 @@ a {
   margin-top: 10px;
   font-size: 0.9rem;
   font-weight: 600;
-}
-
-.section-intro {
-  color: var(--text-secondary);
-  max-width: 68ch;
-  margin: -8px 0 20px;
 }
 
 /* Footer */
@@ -246,14 +251,3 @@ a {
 }
 
 .footer-social a:hover { color: var(--accent-blue); }
-
-/* Post pages (docs/*.md) */
-.post {
-  padding: 56px 0;
-  max-width: 700px;
-}
-
-.post h1 { font-size: 2rem; }
-.post h2 { font-size: 1.4rem; margin-top: 1.5em; }
-.post code { background: var(--border); padding: 2px 6px; border-radius: 4px; }
-.post pre { background: #f0f1f3; padding: 16px; border-radius: 10px; overflow-x: auto; }
