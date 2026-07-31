@@ -9,7 +9,7 @@ I optimize. My instinct is to find the pattern nobody else has spotted and **mak
 
 I chase optimization puzzles: **: how do you make something meaningfully better, not marginally better?.**
 
-Autonomy and fast feedback get the best out of me. Give me a problem and the room to solve it, and **I move fast**. Heavy process slows me down.
+Autonomy and fast feedback get the best out of me. Give me a problem and the room to solve it. Heavy process slows me down.
 
 I'm direct. I raise the hard question early instead of managing around it. **Getting to the right answer matters more to me than being liked for saying it.** I want work judged on its merits, **not on relationships or who's easiest to agree with.**
 
