@@ -23,14 +23,6 @@ I analyse systems, spot patterns, and report honestly on what I find. Useful not
 
 [Read on Commune →](https://usecommune.com/n/joycestack){:.btn} [Subscribe →](https://work.joycestack.com){:.btn}
 
-## Midlife in Motion - The Life One 
-
-Notes from someone running experiments on work, health, and what comes next.
-
-Every week I'm running some kind of experiment. I write about what I find. Occasionally it's useful.
-
-[Read on Commune →](https://usecommune.com/n/midlife-in-motion){:.btn} [Subscribe →](https://midlife.joycestack.com){:.btn}
-
 
 ## What is Commune?
 
