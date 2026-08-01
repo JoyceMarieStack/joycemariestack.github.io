@@ -54,6 +54,8 @@ A vocabulary pipeline auditing synonym fragmentation in enterprise compliance sp
 
 A parallel experiment made the stakes concrete: a MUST-level immutability constraint failed to propagate to the database enforcement surface, because of a single missing SQL statement. Three separate AI critics reviewed the code and missed it. Vocabulary problems and enforcement problems turn out to be the same problem, wearing different clothes.
 
+Not the same thing as markdown-ia's vocabulary governance skill. Different corpus, different pipeline, built independently. Vocabulary problems just keep showing up in this work.
+
 ---
 
 ### agent-ready-docs → ai-agent-reading-experiments
