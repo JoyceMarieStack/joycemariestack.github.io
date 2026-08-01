@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<!--author-->
+<img src="/assets/img/avatar.jpg" alt="Joyce Stack" class="avatar" width="120" height="120" loading="lazy" />
 
 Twenty years in software. Developer, architect, API advocate. And now, apparently, the person who asks awkward questions of corpora.
 
@@ -12,7 +12,7 @@ That last part wasn't planned. It started with picking up a docs problem nobody 
 
 Documentation debt doesn't disappear when you adopt AI. It compounds.
 
-Making the invisible visible is something I love to do. The work is genuinely cross-disciplinary. I code enough to build pipelines, write enough to publish findings, and think architecturally enough to understand how knowledge fits together across a system.
+Making the invisible visible — dashboards, gap analysis, cost checkers — that's the actual work. Genuinely cross-disciplinary: I code enough to build pipelines, write enough to publish findings, and think architecturally enough to understand how knowledge fits together across a system.
 
 What I keep finding: the problems that look like documentation problems aren't. They're about how engineering knowledge is structured, named, and organized, and whether humans and AI systems can actually use it. That's made me a better reader of engineering knowledge — which turns out to be the harder skill.
 

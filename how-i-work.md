@@ -5,9 +5,9 @@ description: >
   A few things worth knowing before we work together.
 ---
 
-I optimize. My instinct is to find the pattern nobody else has spotted and **make the invisible visible**: friction, inefficiency, gaps in a system. I'd rather build the framework others build on than manage the people using it. Building the framework isn't the point, though. **people actually using it is.**
+I optimize. My instinct is to find the pattern nobody else has spotted and **make the invisible visible**: friction, inefficiency, gaps in a system. I'd rather build the framework others build on than manage the people using it. Building the framework isn't the point, though. **People actually using it is.**
 
-I chase optimization puzzles: **: how do you make something meaningfully better, not marginally better?.**
+I chase optimization puzzles: how do you make something **meaningfully better, not marginally better**?
 
 Autonomy and fast feedback get the best out of me. Give me a problem and the room to solve it. Heavy process slows me down.
 
