@@ -3,17 +3,15 @@ layout: page
 title: Blog
 permalink: /blog/
 description: >
-  Two newsletters, both hosted on Commune.
+  I analyse systems, spot patterns, and report honestly on what I find. Useful notes on making work better.
 ---
 
-I write two things — but not here. Both live on **Commune**. {:.lead}
+My work lives on **Commune**. {:.lead}
 
 
-## Joyce Stack - The Work One 
+## Joyce Stack
 
 Figuring out work. Writing it down.
-
-I analyse systems, spot patterns, and report honestly on what I find. Useful notes on making work better.
 
 - [My Docs Linter Passes Every Check. It Does Not Improve Agent Outcomes.](https://usecommune.com/n/joycestack/a/my-docs-linter-passes-every-check-it-does-not-improve-agent)
 - [How Much Context Do Your Docs Consume? Experiments in Finding Out](https://usecommune.com/n/joycestack/a/how-much-context-do-your-docs-consume-experiments-in-finding)
