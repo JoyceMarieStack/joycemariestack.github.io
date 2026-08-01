@@ -15,7 +15,9 @@ bundle exec jekyll serve
 
 ## Deployment
 
-GitHub Pages' default "Deploy from a branch" build only supports themes on its own allowlist — `jekyll-theme-hydejack` isn't on it. This repo deploys via `.github/workflows/pages.yml`, which builds with Bundler (the real `Gemfile`) and deploys via `actions/deploy-pages`. **Pages source in repo settings must be set to "GitHub Actions"**, not "Deploy from a branch," or the workflow's output is ignored.
+GitHub Pages' default "Deploy from a branch" build only supports themes on its own allowlist — `jekyll-theme-hydejack` isn't on it. This repo deploys via `.github/workflows/pages.yml`, which builds with Bundler (the real `Gemfile`) and deploys via `actions/deploy-pages`. **Pages source in repo settings must be set to "GitHub Actions"**, not "Deploy from a branch," or the workflow's output is ignored (and you'll get failure emails from GitHub's own legacy builder trying and failing to find `jekyll-theme-hydejack` — recognizable by `/github/workspace/` paths and a `github-pages` gem version in the error).
+
+**`Gemfile.lock` must stay committed, never gitignored.** It was gitignored once (a leftover from a generic Jekyll template) and CI broke with a bare `bundler ... exit code 17` — re-resolving dependencies from scratch on every push means any tiny upstream gem release can silently break the build with no code change here. Keep it locked to what's verified locally.
 
 ## Sitemap
 
