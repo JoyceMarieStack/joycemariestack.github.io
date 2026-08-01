@@ -6,12 +6,7 @@ description: >
   I analyse systems, spot patterns, and report honestly on what I find. Useful notes on making work better.
 ---
 
-My work lives on **Commune**. {:.lead}
-
-
-## Joyce Stack
-
-Figuring out work. Writing it down.
+Figuring out work. Writing it down over on **Commune**. 
 
 - [My Docs Linter Passes Every Check. It Does Not Improve Agent Outcomes.](https://usecommune.com/n/joycestack/a/my-docs-linter-passes-every-check-it-does-not-improve-agent)
 - [How Much Context Do Your Docs Consume? Experiments in Finding Out](https://usecommune.com/n/joycestack/a/how-much-context-do-your-docs-consume-experiments-in-finding)
