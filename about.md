@@ -32,4 +32,4 @@ More on all of it on the [Projects page](/projects/).
 
 ## Get in Touch
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/joycestack/) or reach out [by email](mailto:joyce@joycestack.com). I write about documentation, AI agents, and what I find when I go looking on the [blog](/blog/).
+You can find me on [LinkedIn](https://www.linkedin.com/in/joycestack/) or reach out [by email](mailto:joyce@joycestack.com). I write about what I find on the [blog](/blog/).

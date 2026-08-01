@@ -46,6 +46,23 @@ For any avatar/image added directly in a `.md` page's own content, write a singl
 <img src="/assets/img/avatar.jpg" alt="Joyce Stack" class="avatar" width="120" height="120" loading="lazy" />
 ```
 
+## Site-wide CSS conventions (`_sass/my-style.scss`)
+
+- **External links get the accent color automatically.** The rule targets
+  the same selector the theme already uses to detect external links
+  (`a[href*="://"]:not(.no-mark-external):not(.no-mark)`), not a manually
+  applied class. Any link to an off-site URL gets colored automatically —
+  don't add a `.external-link` class or similar per-link; it's redundant
+  and was removed from `projects.md` for exactly this reason.
+- **`.btn` links are always block-level, one per line, no icon.** The
+  theme's `.btn` class is just `text-decoration: none` by default — nothing
+  stops multiple `.btn` links from flowing onto the same line if they're
+  written back-to-back in Markdown (this happened twice, on `/projects/`
+  and `/blog/`, before the CSS was fixed). `.btn` is now `display: block`
+  with its own `::after` icon suppressed (redundant since `.btn` link text
+  always ends with its own "→"). This means new `.btn` links never need
+  manual line-breaking in the Markdown source — the CSS handles it.
+
 ## Theme tier limits
 
 Hydejack **Lite is free but has no portfolio or resume layout** — those are PRO-only ($99 one-time, adds portfolio/resume layouts, dark mode, search, removes branding). `/about/` and `/projects/` use the plain `about`/`page` layouts, hand-authored in Markdown, not the theme's project/resume system.

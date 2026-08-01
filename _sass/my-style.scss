@@ -16,10 +16,29 @@
   height: 12rem;
 }
 
-// Applied only to the write-up links on /projects/ (added via kramdown IAL,
-// not a page-wide selector) to visually flag them as going off-site to Commune.
-.external-link {
+// Site-wide rule: every external link (same detection the theme already uses
+// for its external-link icon: href contains "://") gets the accent color.
+// Applies automatically to any link, anywhere on the site -- no manual class
+// needed per link.
+a[href*="://"]:not(.no-mark-external):not(.no-mark) {
   color: var(--accent-color);
+}
+
+// Site-wide rule: the theme's `.btn` class is just an inline link with the
+// underline removed (a.btn { text-decoration: none; } is its entire style),
+// so multiple `.btn` links next to each other flow onto the same line by
+// default. Forcing block display makes every `.btn` link stack on its own
+// line automatically, regardless of markdown source formatting.
+.btn {
+  display: block;
+  margin: 0.5rem 0;
+
+  // Every `.btn` link already ends with its own "→" in the link text, so the
+  // theme's auto-appended external-link icon is redundant here. Suppress it
+  // site-wide for this class rather than per-instance.
+  &::after {
+    content: none;
+  }
 }
 
 .dl-table {
