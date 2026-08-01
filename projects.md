@@ -31,7 +31,7 @@ I applied a five-facet content model to classify 103 approved architecture stand
 
 The finding that mattered most wasn't in the content: it was in the permission boundaries. Roughly a third of linked normative content sits behind authentication and is unreachable to an agent in a default configuration. No amount of restructuring fixes that until someone surfaces it. I also built a Knowledge Acquisition Cost model scoring the ten most convoluted compliance journeys by documents consulted, repositories crossed, and terminology shifts encountered, mapped directly to where agents hallucinate or stall.
 
-[Read the write-up →](https://usecommune.com/n/joycestack/a/auditing-docs-for-ai-readiness-a-knowledge-engineering-self){:.btn}
+[Read the write-up →](https://usecommune.com/n/joycestack/a/auditing-docs-for-ai-readiness-a-knowledge-engineering-self){:.btn .external-link}
 
 ---
 
@@ -67,7 +67,11 @@ Not the same thing as markdown-ia's vocabulary governance skill. Different corpu
 
 The lesson I keep relearning: build the outcome test before the metric you're going to ask people to optimize for.
 
-[Agent Ready Docs — 5 Lessons Learned →](https://usecommune.com/n/joycestack/a/agent-ready-docs-5-lessons-learned){:.btn} [I Broke Every Table Formatting Rule →](https://usecommune.com/n/joycestack/a/i-broke-every-table-formatting-rule-and-claude-didn-t-care-e){:.btn} [My Docs Linter Passes Every Check →](https://usecommune.com/n/joycestack/a/my-docs-linter-passes-every-check-it-does-not-improve-agent){:.btn}
+[Agent Ready Docs — 5 Lessons Learned →](https://usecommune.com/n/joycestack/a/agent-ready-docs-5-lessons-learned){:.btn .external-link}
+
+[I Broke Every Table Formatting Rule →](https://usecommune.com/n/joycestack/a/i-broke-every-table-formatting-rule-and-claude-didn-t-care-e){:.btn .external-link}
+
+[My Docs Linter Passes Every Check →](https://usecommune.com/n/joycestack/a/my-docs-linter-passes-every-check-it-does-not-improve-agent){:.btn .external-link}
 
 ---
 
@@ -77,7 +81,7 @@ The lesson I keep relearning: build the outcome test before the metric you're go
 
 Most teams don't think to ask. `doc-cost` scans every Markdown file in a repository, counts tokens with the same encoder used by GPT-4o and o-series models, and reports the financial cost per read, per provider. Documentation isn't free at inference time: a large `AGENTS.md` loaded into every session accumulates real spend across a team, and nobody's watching that number.
 
-[Read the write-up →](https://usecommune.com/n/joycestack/a/how-much-context-do-your-docs-consume-experiments-in-finding){:.btn}
+[Read the write-up →](https://usecommune.com/n/joycestack/a/how-much-context-do-your-docs-consume-experiments-in-finding){:.btn .external-link}
 
 ---
 

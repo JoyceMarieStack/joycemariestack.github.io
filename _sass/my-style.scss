@@ -16,6 +16,12 @@
   height: 12rem;
 }
 
+// Applied only to the write-up links on /projects/ (added via kramdown IAL,
+// not a page-wide selector) to visually flag them as going off-site to Commune.
+.external-link {
+  color: var(--accent-color);
+}
+
 .dl-table {
   a {
     @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {

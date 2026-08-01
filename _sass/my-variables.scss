@@ -1,0 +1,6 @@
+// The theme's default $break-point-dynamic computes to 1664px (based on
+// content width + sidebar width + margins), which is wider than most
+// laptop screens. That hides the TOC, third-column content, and other
+// "large screen" features for most visitors. Lowering it so those
+// features show up on typical wide laptop/desktop windows too.
+$break-point-dynamic: 1280px;
