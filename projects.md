@@ -85,4 +85,13 @@ Most teams don't think to ask. `doc-cost` scans every Markdown file in a reposit
 
 ---
 
+### training-load-tracker
+
+**Built to answer two questions every week: am I hitting my training targets, and which muscle groups am I over- or under-training.**
+
+
+A Node/Express app that pulls workout data from Hevy and Whoop and cross-checks it against weekly targets and training volume per muscle group, so the answer's there before I plan the next session.
+
+---
+
 *Most of the projects above are internal work, not public repos, but real audits with real findings. If you want to talk through any of them, [get in touch](mailto:joyce@joycestack.com).*
