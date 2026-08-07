@@ -6,17 +6,19 @@ permalink: /about/
 
 <img src="/assets/img/avatar.jpg" alt="Joyce Stack" class="avatar" width="120" height="120" loading="lazy" />
 
-Twenty years in software. Developer, architect, API advocate. And now, apparently, the person who asks awkward questions of corpora.
+Developer, architect, API advocate. And now, apparently, the person who asks awkward questions of corpora.
 
-That last part wasn't planned. It started with picking up a docs problem nobody assigned to me, which led to a question I hadn't taken seriously before: what does documentation actually need to look like when AI agents are reading it, not humans?
+That last part wasn't planned. None of it really was: my career has responded to what's emerging and interesting at the time, not to a plan. Paying attention to what's shifting beats working from a roadmap.
 
-Documentation debt doesn't disappear when you adopt AI. It compounds.
+This time it started with picking up a docs problem nobody assigned to me, which led to a question: what does documentation actually need to look like when AI agents are reading it, not humans?
+
+Documentation debt doesn't disappear when you adopt AI. It compounds. Doc debt used to mean an annoyed developer. Now it means undefined system behavior.  
+
+What I've been finding lately: the problems that look like documentation problems aren't. They're about how engineering knowledge is structured, named, and organized, and whether humans and AI systems can actually use it. That's made me a better reader of engineering knowledge — which turns out to be the harder skill.
 
 Making the invisible visible — dashboards, gap analysis, cost checkers — that's the actual work. Genuinely cross-disciplinary: I code enough to build pipelines, write enough to publish findings, and think architecturally enough to understand how knowledge fits together across a system.
 
-What I keep finding: the problems that look like documentation problems aren't. They're about how engineering knowledge is structured, named, and organized, and whether humans and AI systems can actually use it. That's made me a better reader of engineering knowledge — which turns out to be the harder skill.
-
-I build experimental tooling to surface what's invisible in engineering knowledge, for teams trying to make their systems work reliably with AI.
+I've been building experimental tooling to surface what's invisible in engineering knowledge, for teams trying to make their systems work reliably with AI.
 
 I write about what I find.
 
